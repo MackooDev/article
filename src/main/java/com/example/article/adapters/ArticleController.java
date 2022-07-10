@@ -6,7 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @Service
-public class B {
+public class ArticleController {
+
     @GetMapping("/hello")
     public String hello(){
         return "hello maciek";

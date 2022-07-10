@@ -4,7 +4,7 @@ import com.example.article.domain.model.Article;
 
 import java.util.List;
 
-public interface ArticleRepository {
+public interface ArticleService {
 
     Iterable<Article> getAllArticlePresSortByDatePublicationDescending();
 
